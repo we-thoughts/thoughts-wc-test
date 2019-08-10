@@ -48,7 +48,7 @@ Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.
 - npm 6.9.0 或其它
 - git 2.19.2.windows.1 或其它
 
-​```bash
+```bash
 node -v
 npm -v
 git --version
