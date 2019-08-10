@@ -1,6 +1,6 @@
 # \<thoughts-wc-test\>
 
-[![thoughts-wc-test](https://badge.fury.io/js/thoughts-wc-test.svg)](https://npmjs.org/package/@we_thoughts/thoughts-wc-test)
+[![thoughts-wc-test](https://badge.fury.io/js/%40we_thoughts%2Fthoughts-wc-test.svg)](https://npmjs.org/package/@we_thoughts/thoughts-wc-test)
 
 Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.
 
