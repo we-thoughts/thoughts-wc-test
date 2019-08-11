@@ -6,6 +6,7 @@ branches:
   - master
 before_install:
   - npm install polymer-cli -g
+  - npm install selenium-standalone@latest -g
 install:
   - npm install
 script:
