@@ -11,6 +11,8 @@ before_install:
   - npm install selenium-standalone@latest -g
 install:
   - npm install
+before_script:
+  - google-chrome-stable --headless --disable-gpu
 script:
   - npm test
 after_script:
