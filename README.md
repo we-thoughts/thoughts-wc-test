@@ -1,6 +1,6 @@
 # \<thoughts-wc-test\>
 
-[![thoughts-wc-test](https://badge.fury.io/js/%40we_thoughts%2Fthoughts-wc-test.svg)](https://npmjs.org/package/@we_thoughts/thoughts-wc-test)
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.
 
@@ -136,3 +136,12 @@ npm run dist
 ## License
 
 GPL-3.0 © [cigaret](https://thoughts.vip)
+
+[npm-image]: https://badge.fury.io/js/%40we_thoughts%2Fthoughts-wc-test.svg
+[npm-url]: https://npmjs.org/package/@we_thoughts/thoughts-wc-test
+[daviddm-image]: https://david-dm.org/we-thoughts/thoughts-wc-test.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/we-thoughts/thoughts-wc-test
+[travis-image]: https://travis-ci.com/we-thoughts/thoughts-wc-test.svg?branch=master
+[travis-url]: https://travis-ci.com/we-thoughts/thoughts-wc-test
+[coveralls-image]: https://coveralls.io/repos/we-thoughts/thoughts-wc-test/badge.svg
+[coveralls-url]: https://coveralls.io/r/we-thoughts/thoughts-wc-test
