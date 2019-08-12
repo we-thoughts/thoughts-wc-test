@@ -1,16 +1,17 @@
-sudo: required
 dist: trusty
+sudo: required
 addons:
   chrome: stable
-
-language: node_js
-node_js:
-  - 10.16.0
 cache:
   npm: true
   directories:
     - node_modules
     - $(npm config get prefix)/bin/polymer-cli
+
+language: node_js
+node_js:
+  - 10.16.0
+
 branches:
   only:
   - master
