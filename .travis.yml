@@ -17,7 +17,6 @@ branches:
 
 before_install:
   - npm install polymer-cli -g
-  - npm config get prefix
 
 install:
   - npm install
