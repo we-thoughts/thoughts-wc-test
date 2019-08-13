@@ -7,6 +7,7 @@ cache:
   directories:
     - node_modules
     - $(npm config get prefix)/bin/polymer-cli
+    - $(npm config get prefix)/bin/wct-istanbul
 
 language: node_js
 node_js:
@@ -18,6 +19,7 @@ branches:
 
 before_install:
   - npm install polymer-cli -g
+  - npm install wct-istanbul -g
 
 install:
   - npm install
