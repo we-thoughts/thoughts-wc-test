@@ -6,7 +6,7 @@
     "verbose": true,
     "plugins": {
         "local": {
-            "disable": false,
+            "disabled": false,
             "skipSeleniumInstall": true
         },
         "istanbul": {
