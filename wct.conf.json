@@ -6,6 +6,7 @@
     "verbose": true,
     "plugins": {
         "local": {
+            "browsers": ["chrome"],
             "disabled": false,
             "skipSeleniumInstall": true
         },
@@ -16,7 +17,6 @@
                 "lcov"
             ],
             "include": [
-                "**/test/add.test.js",
                 "**/test/thoughts-wc-test_test.html"
             ],
             "exclude": [

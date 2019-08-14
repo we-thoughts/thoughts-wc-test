@@ -18,7 +18,7 @@
     "init": "git init && git add . && git commit -m initialize && git remote add origin git@github.com:we-thoughts/thoughts-wc-test.git ",
     "push": "git push -u origin master",
     "serve": "polymer serve",
-    "test": "polymer test --local chrome",
+    "test": "polymer test",
     "build": "tsc && cp ./build/%npm_package_config_wc_name%.js %npm_package_config_wc_name%.js",
     "dist": "tsc && webpack --mode development --config webpack.config.js"
   },
