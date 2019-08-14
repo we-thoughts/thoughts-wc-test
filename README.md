@@ -1,6 +1,6 @@
 # \<thoughts-wc-test\>
 
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][codecov-image]][codecov-url]
 
 > Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.
 
@@ -143,5 +143,5 @@ GPL-3.0 © [cigaret](https://thoughts.vip)
 [daviddm-url]: https://david-dm.org/we-thoughts/thoughts-wc-test
 [travis-image]: https://travis-ci.com/we-thoughts/thoughts-wc-test.svg?branch=master
 [travis-url]: https://travis-ci.com/we-thoughts/thoughts-wc-test
-[coveralls-image]: https://coveralls.io/repos/we-thoughts/thoughts-wc-test/badge.svg
-[coveralls-url]: https://coveralls.io/r/we-thoughts/thoughts-wc-test
+[codecov-image]: https://codecov.io/gh/we-thoughts/thoughts-wc-test/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/we-thoughts/thoughts-wc-test
