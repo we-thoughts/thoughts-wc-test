@@ -9,18 +9,18 @@
             "disabled": false,
             "skipSeleniumInstall": true
         },
-        "istanbul": {
+        "istanbulcoverage": {
             "dir": "./coverage",
             "reporters": [
                 "text-summary",
                 "lcov"
             ],
             "include": [
-                "./test/add.js",
-                "./test/thoughts-wc-test_test.html"
+                "**/test/add.test.js",
+                "**/test/thoughts-wc-test_test.html"
             ],
             "exclude": [
-                "node_modules"
+                "**/node_modules/**"
             ],
             "thresholds": {
                 "global": {

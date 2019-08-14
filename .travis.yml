@@ -19,7 +19,7 @@ branches:
 
 before_install:
   - npm install polymer-cli -g
-  - npm install wct-istanbul -g
+  - npm install web-component-tester-istanbulcoverage -g
 
 install:
   - npm install
