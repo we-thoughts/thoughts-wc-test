@@ -6,8 +6,9 @@ cache:
   npm: true
   directories:
     - node_modules
-    - $(npm config get prefix)/bin/polymer-cli
-    - $(npm config get prefix)/bin/wct-istanbul
+    # seems no effect to cache global modules
+    # - $(npm config get prefix)/bin/polymer-cli
+    # - $(npm config get prefix)/bin/web-component-tester-istanbulcoverage
 
 language: node_js
 node_js:
