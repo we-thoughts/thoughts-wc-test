@@ -28,7 +28,6 @@
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "chai": "^4.2.0",
     "codecov": "^3.5.0",
-    "coveralls": "^3.0.6",
     "mocha": "^6.1.4",
     "ts-loader": "^6.0.4",
     "wct-mocha": "^1.0.1",
