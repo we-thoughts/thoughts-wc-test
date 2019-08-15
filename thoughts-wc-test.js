@@ -1,4 +1,4 @@
-import { html, PolymerElement } from '@polymer/polymer/polymer-element.js';
+import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 class ThoughtsWcTest extends PolymerElement {
     static get template() {
         return html `
@@ -14,9 +14,9 @@ class ThoughtsWcTest extends PolymerElement {
         return {
             prop1: {
                 type: String,
-                value: 'thoughts-wc-test',
-            },
+                value: "thoughts-wc-test"
+            }
         };
     }
 }
-window.customElements.define('thoughts-wc-test', ThoughtsWcTest);
+window.customElements.define("thoughts-wc-test", ThoughtsWcTest);
