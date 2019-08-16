@@ -1,6 +1,6 @@
 module.exports = {
     "hooks": {
-        "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-        // "pre-commit": "npm run test"
+        // unuseable under windows
+        // "prepare-commit-msg": "exec < /dev/tty && npx git cz --hook || true",
     }
 }
