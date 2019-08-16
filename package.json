@@ -18,7 +18,7 @@
   "scripts": {
     "init": "git init && git add . && git commit -m initialize && git remote add origin git@github.com:we-thoughts/thoughts-wc-test.git ",
     "push": "git push -u origin master",
-    "commit": "npx git-cz",
+    "commit": "npx commit",
     "serve": "polymer serve",
     "test": "polymer test",
     "lint": "npx eslint ./",
@@ -27,11 +27,13 @@
     "dist": "npx tsc && webpack --mode development --config webpack.config.js"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "@polymer/iron-demo-helpers": "^3.1.0",
     "@polymer/test-fixture": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
-    "@we_thoughts/thoughts-commit": "0.0.3",
+    "@we_thoughts/thoughts-commit": "0.0.8",
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "chai": "^4.2.0",
     "codecov": "^3.5.0",
@@ -53,10 +55,7 @@
     "webpack-cli": "^3.3.6"
   },
   "config": {
-    "wc_name": "thoughts-wc-test",
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "wc_name": "thoughts-wc-test"
   },
   "repository": "we-thoughts/thoughts-wc-test",
   "license": "GPL-3.0"
