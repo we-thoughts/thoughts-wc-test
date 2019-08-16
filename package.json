@@ -18,7 +18,7 @@
   "scripts": {
     "init": "git init && git add . && git commit -m initialize && git remote add origin git@github.com:we-thoughts/thoughts-wc-test.git ",
     "push": "git push -u origin master",
-    "commit": "npx git cz",
+    "commit": "npx git-cz",
     "serve": "polymer serve",
     "test": "polymer test",
     "lint": "npx eslint ./",
