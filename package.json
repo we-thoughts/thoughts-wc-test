@@ -35,8 +35,6 @@
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "chai": "^4.2.0",
     "codecov": "^3.5.0",
-    "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^13.0.1",
