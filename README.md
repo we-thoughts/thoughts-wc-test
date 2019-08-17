@@ -18,7 +18,7 @@
 
   ```html
   <script src="https://cdn.jsdelivr.net/npm/package@version/file"></script>
-  
+
   <!-- 示例如下 -->
   <script src="https://cdn.jsdelivr.net/npm/@we_thoughts/thoughts-wc-test/dist/thoughts-wc-test.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@we_thoughts/thoughts-wc-test/dist/thoughts-wc-test.min.js"></script>
@@ -32,7 +32,7 @@
 
   ```bash
   npm install --save @scope/package@version
-  
+
   # 示例如下
   npm install --save @we_thoughts/thoughts-wc-test
   npm install --save @we_thoughts/thoughts-wc-test@latest
@@ -115,8 +115,6 @@ git --version
 ```
 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test?ref=badge_large)
-
 ### 命令（npm scripts）
 
 组件项目中已集成常用命令，使用前请确保配置文件合乎预期，如下：
@@ -145,6 +143,8 @@ npm run dist
 ## License
 
 GPL-3.0 © [cigaret](https://thoughts.vip)
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test?ref=badge_large)
 
 [npm-image]: https://badge.fury.io/js/%40we_thoughts%2Fthoughts-wc-test.svg
 [npm-url]: https://npmjs.org/package/@we_thoughts/thoughts-wc-test
