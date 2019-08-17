@@ -1,6 +1,7 @@
 # \<thoughts-wc-test\>
 
 [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][codecov-image]][codecov-url]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test?ref=badge_shield)
 
 > Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.
 
@@ -112,6 +113,9 @@ git --version
     | - wct.conf.json - web-component-tester 配置文件
     | - webpack.config.js
 ```
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwe-thoughts%2Fthoughts-wc-test?ref=badge_large)
 
 ### 命令（npm scripts）
 
