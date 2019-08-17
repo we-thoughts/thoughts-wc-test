@@ -1,10 +1,10 @@
 {
-  "_path": "./node_modules/cz-conventional-changelog",
-  "maxHeaderWidth": 100,
-  "maxLineWidth": 1000,
-  "defaultType": "",
-  "defaultScope": "",
-  "defaultSubject": "",
-  "defaultBody": "",
-  "defaultIssues": ""
+    "_path": "./node_modules/cz-conventional-changelog",
+    "maxHeaderWidth": 100,
+    "maxLineWidth": 1000,
+    "defaultType": "",
+    "defaultScope": "",
+    "defaultSubject": "",
+    "defaultBody": "",
+    "defaultIssues": ""
 }
