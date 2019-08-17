@@ -3,12 +3,7 @@
   "name": "@we_thoughts/thoughts-wc-test",
   "version": "0.0.4",
   "description": "Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.",
-  "keywords": [
-    "web components",
-    "polymer",
-    "thoughts",
-    "test"
-  ],
+  "keywords": ["web components", "polymer", "thoughts", "test"],
   "homepage": "https://thoughts.vip",
   "author": "cigaret <kcigaret@outlook.com> (https://thoughts.vip)",
   "main": "./build/thoughts-wc-test.js",
@@ -16,7 +11,7 @@
     "@polymer/polymer": "^3.0.0"
   },
   "scripts": {
-    "init": "git init && git add . && git commit -m initialize && git remote add origin git@github.com:we-thoughts/thoughts-wc-test.git ",
+    "init": "git init && git add . && git commit -m initialize && git remote add origin git@github.com:we-thoughts/thoughts-wc-test.git",
     "push": "git push -u origin master",
     "commit": "npx commit",
     "serve": "polymer serve",
@@ -24,7 +19,7 @@
     "lint": "npx eslint ./",
     "lint:fix": "npx eslint ./ --fix",
     "build": "npx tsc && cp ./build/%npm_package_config_wc_name%.js %npm_package_config_wc_name%.js",
-    "dist": "npx tsc && webpack --mode development --config webpack.config.js"
+    "dist": "npx tsc && webpack --mode production --config webpack.config.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
@@ -33,7 +28,7 @@
     "@polymer/test-fixture": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
-    "@we_thoughts/thoughts-commit": "0.0.8",
+    "@we_thoughts/thoughts-commit": "0.0.15",
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "chai": "^4.2.0",
     "codecov": "^3.5.0",
