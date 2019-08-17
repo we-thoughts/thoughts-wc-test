@@ -1,9 +1,14 @@
 {
   "root": true,
   "name": "@we_thoughts/thoughts-wc-test",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.",
-  "keywords": ["web components", "polymer", "thoughts", "test"],
+  "keywords": [
+    "web components",
+    "polymer",
+    "thoughts",
+    "test"
+  ],
   "homepage": "https://thoughts.vip",
   "author": "cigaret <kcigaret@outlook.com> (https://thoughts.vip)",
   "main": "./build/thoughts-wc-test.js",
