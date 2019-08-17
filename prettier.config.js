@@ -1,4 +1,5 @@
 // 相关配置请访问：https://prettier.io/docs/en/configuration.html https://prettier.io/docs/en/options.html
+// Standard Rules: https://github.com/standard/standard/blob/master/RULES.md
 module.exports = {
   printWidth: 120,
   tabWidth: 2,
