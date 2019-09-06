@@ -1,7 +1,7 @@
 {
   "root": true,
   "name": "@we_thoughts/thoughts-wc-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.",
   "keywords": [
     "web components",
@@ -33,7 +33,7 @@
     "@polymer/test-fixture": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
-    "@we_thoughts/thoughts-commit": "0.0.15",
+    "@we_thoughts/thoughts-commit": "0.0.16",
     "@webcomponents/webcomponentsjs": "^2.0.0",
     "chai": "^4.2.0",
     "codecov": "^3.5.0",

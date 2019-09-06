@@ -1,6 +1,7 @@
 
 let a = 1;
 let b; let c;
+
 function create() {
   b = a;
   a = a + 1;
@@ -14,5 +15,3 @@ let d = {
 }
 // console.info(window.)
 document.write(create());
-
-
