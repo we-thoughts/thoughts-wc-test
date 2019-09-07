@@ -1,7 +1,7 @@
 {
   "root": true,
   "name": "@we_thoughts/thoughts-wc-test",
-  "version": "0.0.6",
+  "version": "0.0.0-development",
   "description": "Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.",
   "keywords": [
     "web components",
@@ -24,7 +24,8 @@
     "lint": "npx eslint ./",
     "lint:fix": "npx eslint ./ --fix",
     "build": "npx tsc && cp ./build/%npm_package_config_wc_name%.js %npm_package_config_wc_name%.js",
-    "dist": "npx tsc && webpack --mode production --config webpack.config.js"
+    "dist": "npx tsc && webpack --mode production --config webpack.config.js",
+    "semantic-release": "npx semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
@@ -48,6 +49,7 @@
     "husky": "^3.0.3",
     "mocha": "^6.1.4",
     "prettier": "^1.18.2",
+    "semantic-release": "^15.13.24",
     "semantic-release-cli": "^5.2.1",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
