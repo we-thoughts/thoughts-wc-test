@@ -32,5 +32,4 @@ script:
   - npm test
 after_script:
   - codecov -t 419e3ede-40b2-4b4d-be43-c2924910dd89
-  # - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
   - rm -rf ./coverage

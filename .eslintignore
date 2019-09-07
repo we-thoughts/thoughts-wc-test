@@ -6,4 +6,4 @@
 package-lock.json
 !.huskyrc.js
 !.eslintrc.js
-!.cz.json
+!.cz-config.js
