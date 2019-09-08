@@ -1,7 +1,7 @@
 {
   "root": true,
   "name": "@we_thoughts/thoughts-wc-test",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Test of generator-thoughts-wc-polymer &amp; thoughts-wc-polymer.",
   "keywords": [
     "web components",
