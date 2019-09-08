@@ -42,6 +42,11 @@ module.exports = {
       "failComment": false,
       "labels": false
     }],
-    // "@semantic-release/npm",
+    // https://github.com/semantic-release/npm
+    "@semantic-release/npm",
+    // https://github.com/semantic-release/git
+    ["@semantic-release/git",{
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }]
   ]
 }
